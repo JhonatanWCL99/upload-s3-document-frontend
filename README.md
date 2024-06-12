@@ -19,8 +19,22 @@
     ```bash
     flutter run
 
-### Descripción de la aplicación Flutter
-1. Usuarios
+## Descripción de la aplicación Flutter
+### Usuarios
+- Listar
 
-    
-2. Documentos 
+![image](https://github.com/JhonatanWCL99/upload-s3-document-frontend/assets/75543043/aa347edc-dca4-4c1b-9361-d5fc3242cdbf)
+
+- Crear
+
+![image](https://github.com/JhonatanWCL99/upload-s3-document-frontend/assets/75543043/9a463a96-eea9-418f-9679-761cfc3079d0)
+  
+### Documentos
+- Listar
+
+![image](https://github.com/JhonatanWCL99/upload-s3-document-frontend/assets/75543043/e5b46a01-3323-46be-b4e1-b17fd715deea)
+
+- Crear
+
+![image](https://github.com/JhonatanWCL99/upload-s3-document-frontend/assets/75543043/3eb3a869-5f1b-4c66-a588-51d375919eab)
+
