@@ -1,16 +1,23 @@
-# upload_file_frontend
+# Proyecto Frontend Flutter
 
-A new Flutter project.
+## Instrucciones para ejecutar localmente la aplicacion
 
-## Getting Started
+### Instalación
+1. Clona el repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/JhonatanWCL99/upload-s3-document-frontend
+   
+2. Navega al directorio del proyecto:
+   ```bash
+   cd nombre_del_proyecto_flutter
 
-This project is a starting point for a Flutter application.
+3. Instala las dependencias:
+   ```bash
+   flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+4. Ejecutar la aplicacion en el navegador:
+    ```bash
+    flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Descripción de la aplicación Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
