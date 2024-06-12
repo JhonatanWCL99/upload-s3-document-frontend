@@ -15,7 +15,11 @@
    ```bash
    flutter pub get
 
-4. Ejecutar la aplicacion en el navegador:
+4. Configurar variable de entorno en el .env:
+   ```bash
+   API_BASE_URL=http://www.example.com
+
+5. Ejecutar la aplicacion en el navegador:
     ```bash
     flutter run
 
