@@ -1,7 +1,7 @@
-# Aplicacion Flutter Web para subir archivos
+# Aplicación Flutter Web para subir archivos
 
-Aplicacion web para registrar y listar Usuarios y Documentos (Archivos), es una aplicacion que esta configurada con BLOC para la gestion de estados
-y para la organizacion de los archivos y carpetas se esta usando CLEAN ARQUITECTURE.
+Aplicación web para registrar y listar usuarios y documentos (archivos). 
+Utiliza BLoC para la gestión de estados y sigue los principios de la Arquitectura Limpia (Clean Architecture) para una estructura modular y mantenible.
 
 ## Capturas de Pantalla de Aplicacion
 
