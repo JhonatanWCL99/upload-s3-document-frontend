@@ -11,7 +11,6 @@ class GetUsersUseCase {
     try {
       return await userApi.getUsers();
     } catch (e) {
-      print('Error fetching users: $e');
       throw Exception('Failed to fetch users');
     }
   }

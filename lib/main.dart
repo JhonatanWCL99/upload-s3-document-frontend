@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:upload_file_frontend/pages/home_page.dart';
+import 'package:upload_file_frontend/core/screens/home_screen.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 void main() async {
   await dotenv.load(fileName: ".env");
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Upload File',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.brown,
       ),
       home: const MyHomePage(),
     );

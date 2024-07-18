@@ -9,10 +9,10 @@ abstract class UserEvent extends Equatable {
 }
 class LoadUsersEvent extends UserEvent {}
 
-class AddUser extends UserEvent {
+class AddUserEvent extends UserEvent {
   final User newUser;
 
-  AddUser(this.newUser);
+  const AddUserEvent(this.newUser);
 
   @override
   List<Object> get props => [newUser];

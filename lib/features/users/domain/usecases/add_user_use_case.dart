@@ -9,7 +9,6 @@ class AddUserUseCase {
     try {
       return await userApi.createUser(fullName);
     } catch (e) {
-      print('Error creating user: $e');
       throw Exception('Failed to create user');
     }
   }

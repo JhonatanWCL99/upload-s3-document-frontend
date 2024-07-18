@@ -1,4 +1,3 @@
-// add_user_modal.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:upload_file_frontend/features/users/domain/models/user_model.dart';
@@ -29,14 +28,14 @@ class AddUserModal extends StatelessWidget {
         ElevatedButton(
           onPressed: () async {
             final newUser = User(fullName: fullNameController.text);
-            usersBloc.add(AddUser(newUser));
+            usersBloc.add(AddUserEvent(newUser));
             Navigator.of(context).pop();
           },
           child: const Text('Guardar'),
         ),
         TextButton(
           onPressed: () {
-            Navigator.of(context).pop(); // Cierra el modal
+            Navigator.of(context).pop();
           },
           child: const Text('Cancelar'),
         ),

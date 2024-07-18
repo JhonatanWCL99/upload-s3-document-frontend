@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:upload_file_frontend/features/documents/presentation/screens/document_screen.dart';
 import 'package:upload_file_frontend/features/users/presentation/screens/user_screen.dart';
-import 'package:upload_file_frontend/pages/documents_page.dart';
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+  const MyHomePage({super.key});
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
   static final List<Widget> _widgetOptions = <Widget>[
-    const UsersPage(),
-    DocumentsPage(),
+    const UserScreen(),
+    const DocumentsPage(),
   ];
 
   void _onItemTapped(int index) {

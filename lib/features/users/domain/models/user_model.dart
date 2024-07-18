@@ -3,13 +3,13 @@ class User {
   final String fullName;
   String? createdAt;
 
-  User({required this.fullName, String? id, String? createdAt});
+  User({required this.fullName, this.id, this.createdAt});
 
   factory User.fromJson(Map<String, dynamic> json) {
     return User(
-      id: json['id'] as String?,
-      fullName: json['fullName'] as String,
-      createdAt: json['createdAt'] as String?,
+      id: json['_id'],
+      fullName: json['fullName'],
+      createdAt: json['createdAt'],
     );
   }
 
